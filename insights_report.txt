@@ -1,0 +1,37 @@
+CUSTOMER ANALYSIS PROJECT — KEY FINDINGS
+==========================================
+
+DATASET: 5,630 E-commerce Customers
+
+1. CHURN RATE
+   - 16.8% of customers churned (948 out of 5,630)
+   - Industry average is 20-30%, so this is relatively healthy
+   - Recommendation: Focus on reducing churn below 10%
+
+2. TENURE INSIGHT
+   - Customers in first 0-2 months have highest churn
+   - Customers with 15+ months tenure almost never churn
+   - Recommendation: Invest heavily in onboarding new customers
+
+3. SATISFACTION SCORE
+   - Churn happens across ALL satisfaction scores
+   - Even score 4-5 customers churn
+   - Recommendation: Satisfaction alone is not enough
+
+4. RFM SEGMENTS
+   - Champions:  400  (7%)  — protect these at all costs
+   - Loyal:    2,360  (42%) — upsell opportunities
+   - At Risk:  2,426  (43%) — urgent re-engagement needed
+   - Lost:       444  (8%)  — win-back campaign needed
+
+5. CHURN PREDICTION MODEL
+   - Logistic Regression: 89% accuracy
+   - Catches 46% of churners before they leave
+   - Recommendation: Improve with Random Forest for better recall
+
+BUSINESS RECOMMENDATIONS
+=========================
+1. Launch onboarding email series for customers in month 0-2
+2. Create loyalty rewards for At Risk segment (43% of base!)
+3. Run win-back campaign for 444 Lost customers
+4. Deploy churn model to flag at-risk customers weekly
